@@ -1,0 +1,15 @@
+cat > .gitignore <<'EOF'
+# Python artefacts
+__pycache__/
+*.py[cod]
+
+# VSCode / PyCharm / etc.
+.vscode/
+.idea/
+
+# Findings & runtime output
+findings_*.txt
+
+# OS clutter
+.DS_Store
+EOF
